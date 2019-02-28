@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+<form action="http://nickblack.pro/send.php" formmethod="POST">
+    <fieldset name="contact">
+    <legend>Контактная информация:</legend>
+    <input type="text" name="fname" required placeholder="Имя:">
+    <br><br>
+    <input type="text" name="sname" placeholder="Фамилия:">
+    <br><br>
+    <input type="number" name="age" placeholder="Age:" min="1" max="100">
+    <br><br>
+    <input type="email" placeholder="Email:">
+    <br><br>
+    <label for="bday">Дата рождения:</label>
+    <input type="date" id="date" name="bday">
+    <br><br>
+    <input type="tel" name="phone" required placeholder="Телефон:">
+    <br><br>
+    <input type="email" name="mymail" value="deniska.oleksandrovich@gmail.com" required placeholder="Email:" readonly>
+    <br><br>
+    <input type="submit" value="Нажимать нежно!">
+</fieldset>
+</form>
+
+</body>
+</html>
